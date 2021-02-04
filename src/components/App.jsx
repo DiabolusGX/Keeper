@@ -12,6 +12,8 @@ const App = () => {
 
     function addNote(note) {
         setNotes(prevNotes => {
+            if(!note.title) note.title = "Title";
+            if(!note.content) note.content = "Content";
             return [ ...prevNotes, note ];
         });
     }
