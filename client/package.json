@@ -1,0 +1,41 @@
+{
+  "name": "keeper",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "dotenv": "^8.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-google-login": "^5.2.2",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "client-install": "cd ../client && npm install",
+    "keeper": "cd ../server && npm run dev",
+    "start": "react-scripts start .env",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "author": "Ankit Malik",
+  "license": "MIT"
+}
